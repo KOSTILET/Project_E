@@ -21,6 +21,29 @@ def lvl():
     print()
     print('Выбирите уровень подготовки:')
     print('1. Стажер'+'\n'+'2. Джуниер'+'\n'+'3. Мидл'+'\n'+'4. Серьер')
+    l = int(input())
+    if l == 1:
+        buton1()
+    elif l == 2:
+        buton2()
+    elif l == 3:
+        buton3()
+    elif l == 4:
+        buton4()
+    else:
+        print('Ошибка кнопок')
+def buton1():
+    print("Кнопка 1")
+
+def buton2():
+    print("Кнопка 2")
+
+def buton3():
+    print("Кнопка 3")
+
+def buton4():
+    print("Кнопка 4")
+
 def privetctvie():
     B = print('Если хотите зарегистриваться напишите на цифру - 1.' + '\n' + 'Если не хотите нажмине на цифру - 2.')
     C = int(input())
